@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipes-Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/d44a5a5439.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="navigation container">
+            <div class="logo">
+                <div class="logo_container">
+                    <a href="index.html"><img src="images/logo1.png" alt="logo" /></a>
+                </div>
+                <div class="leftNav" id="leftNavbar">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="tags.html">Tags</a>
+                    <a href="recipies.html">Recipes</a>
+                    <a href="contacts.html">contacts</a>
+                    <a href="" id="close"><i class="fa-solid fa-xmark"></i></a>
+                </div>
+            </div>
+            <div id="mobile">
+                <i id="bar" class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main class="page">
+        <section class="contact-container">
+            <article class="contact-info">
+                <h3>Want To Get In Touch?</h3>
+                <p>
+                    Four dollar toast biodiesel plaid salvia actually pickled banjo
+                    bespoke mlkshk intelligentsia edison bulb synth.
+                </p>
+                <p>Cardigan prism bicycle rights put a bird on it deep v.</p>
+                <p>
+                    Hashtag swag health goth air plant, raclette listicle fingerstache
+                    cold-pressed fanny pack bicycle rights cardigan poke.
+                </p>
+            </article>
+            <article>
+                <form class="form contact-form">
+                    <div class="form-row">
+                        <label html="name" class="form-label">your name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name" class="form-input" />
+                    </div>
+                    <div class="form-row">
+                        <label html="email" class="form-label">your email</label>
+                        <input type="email" name="email" placeholder="Enter your E-mail" id="email" class="form-input" />
+                    </div>
+                    <div class="form-row">
+                        <label html="message" class="form-label">message</label>
+                        <textarea name="message" id="message" placeholder="Feedback" class="form-textarea"></textarea>
+                    </div>
+                    <button type="submit" id="contact-btn" class="btn btn-block">
+                        submit
+                    </button>
+                </form>
+            </article>
+        </section>
+        <!-- featured recipes -->
+        <section class="featured-recipes">
+            <center>
+                <h3 class="featured-title">Look At This Awesomesouce!</h3>
+            </center>
+            <div class="recipes-list">
+                <!-- single recipe -->
+                <a href="single-recipe.html" class="recipe">
+                    <img src="homeimg/img1.webp" class="img recipe-img" alt="" />
+                    <h5>Veg Sandwich</h5>
+                    <p>Prep : 15min | Cook : 5min</p>
+                </a>
+                <!-- end of single recipe -->
+                <!-- single recipe -->
+                <a href="single-recipe.html" class="recipe">
+                    <img src="homeimg/img2.webp" class="img recipe-img" alt="" />
+                    <h5>Paneer Dum Biryani</h5>
+                    <p>Prep : 15min | Cook : 5min</p>
+                </a>
+                <!-- end of single recipe -->
+                <!-- single recipe -->
+                <a href="single-recipe.html" class="recipe">
+                    <img src="homeimg/img3.webp" class="img recipe-img" alt="" />
+                    <h5>Berger King</h5>
+                    <p>Prep : 15min | Cook : 5min</p>
+                </a>
+                <!-- end of single recipe -->
+            </div>
+        </section>
+    </main>
+    <footer id="contacts">
+        <div class="footer_container container">
+            <div class="footer_logo">
+                <img src="images/logo1.png" alt="logo" />
+            </div>
+            <div class="link_lists">
+                <h3>Main Links</h3>
+                <ul>
+                    <li>Order Tracking</li>
+                    <li>New Order</li>
+                    <li>Contact Us</li>
+                    <li>News & Blogs</li>
+                </ul>
+            </div>
+            <div class="link_lists">
+                <h3>Support</h3>
+                <ul>
+                    <li>About Us</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditons</li>
+                </ul>
+            </div>
+            <div class="news_letter">
+                <h3>Support</h3>
+                <input type="email" placeholder="Enter your Email..." />
+                <h3>Follow Us</h3>
+                <div class="icon_container">
+                    <div class="icon">
+                        <i class="fa fa-facebook"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

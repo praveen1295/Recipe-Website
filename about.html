@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipes-Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/d44a5a5439.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="navigation container">
+            <div class="logo">
+                <div class="logo_container">
+                    <a href="index.html"><img src="images/logo1.png" alt="logo" /></a>
+                </div>
+                <div class="leftNav" id="leftNavbar">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="tags.html">Tags</a>
+                    <a href="recipies.html">Recipes</a>
+                    <a href="contacts.html">contacts</a>
+                    <a href="" id="close"><i class="fa-solid fa-xmark"></i></a>
+                </div>
+            </div>
+            <div id="mobile">
+                <i id="bar" class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+        <section class="about-page">
+            <img src="images/hero_image.png" alt="Person Pouring Salt in Bowl" class="img about-img" />
+
+            <article>
+                <h2>Who We Are</h2>
+                <p>
+
+                    Simply Recipes is here to help you cook delicious meals with less stress and more joy. We offer
+                    recipes and cooking advice for home cooks, by home cooks. Helping create “kitchen wins” is what
+                    we’re all about.
+
+                    Simply Recipes was founded in 2003 by Elise Bauer as a home cooking blog to record her favorite
+                    family recipes. Today, Simply Recipes has grown into a trusted resource for home cooks with more
+                    than 3,000 tested recipes, guides, and meal plans, drawing over 15 million readers each month from
+                    around the world. We’re supported by a diverse group of recipe developers, food writers, recipe and
+                    product testers, photographers, and other creative professionals.
+                </p>
+                <a href="contacts.html"><button class="btn">contact</button> </a>
+            </article>
+        </section>
+        <div class="history">
+            <center>
+                <h2>Our History</h2>
+            </center>
+            <p>
+
+                Elise Bauer was a busy Silicon Valley executive when she became sick with a flu that wouldn’t go away in
+                2001. In 2003, Elise moved home with her parents and lived with them for several years, recovering from
+                chronic fatigue and documenting her parents’ cooking on Simply Recipes. (Here’s more of that story.)
+                Over the years, what started as a small blog grew to reach millions of readers every month! In 2020,
+                Simply Recipes was acquired by Dotdash Meredith, a New York-based media company. </p>
+        </div>
+        <section class="featured-recipes">
+            <center>
+                <h3 class="featured-title">Look At This Awesomesouce!</h3>
+            </center>
+            <div class="recipes-list">
+                <!-- single recipe -->
+                <a href="single-recipe.html" class="recipe">
+                    <img src="homeimg/img1.webp" class="img recipe-img" alt="" />
+                    <h5>Veg Sandwich</h5>
+                    <p>Prep : 15min | Cook : 5min</p>
+                </a>
+                <!-- end of single recipe -->
+                <!-- single recipe -->
+                <a href="single-recipe.html" class="recipe">
+                    <img src="homeimg/img2.webp" class="img recipe-img" alt="" />
+                    <h5>Pneer Dum Biryani</h5>
+                    <p>Prep : 15min | Cook : 5min</p>
+                </a>
+                <!-- end of single recipe -->
+                <!-- single recipe -->
+                <a href="single-recipe.html" class="recipe">
+                    <img src="homeimg/img3.webp" class="img recipe-img" alt="" />
+                    <h5>Berger King</h5>
+                    <p>Prep : 15min | Cook : 5min</p>
+                </a>
+                <!-- end of single recipe -->
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer id="contacts">
+        <div class="footer_container container">
+            <div class="footer_logo">
+                <img src="images/logo1.png" alt="logo" />
+            </div>
+            <div class="link_lists">
+                <h3>Main Links</h3>
+                <ul>
+                    <li>Order Tracking</li>
+                    <li>New Order</li>
+                    <li>Contact Us</li>
+                    <li>News & Blogs</li>
+                </ul>
+            </div>
+            <div class="link_lists">
+                <h3>Support</h3>
+                <ul>
+                    <li>About Us</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditons</li>
+                </ul>
+            </div>
+            <div class="news_letter">
+                <h3>Support</h3>
+                <input type="email" placeholder="Enter your Email..." />
+                <h3>Follow Us</h3>
+                <div class="icon_container">
+                    <div class="icon">
+                        <i class="fa fa-facebook"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
