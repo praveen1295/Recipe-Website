@@ -28,7 +28,6 @@ body {
 
 nav {
   box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
-  min-width: 450px;
   position: sticky;
   top: 0;
   margin-bottom: 32px;
@@ -140,6 +139,9 @@ Hero
   margin-bottom: 2rem;
   background: url("images/main.jpeg") center/cover no-repeat;
   border-radius: 5px;
+}
+.hero img{
+  max-width: 7rem;
 }
 .hero-container {
   position: absolute;
