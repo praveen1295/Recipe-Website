@@ -23,7 +23,7 @@ A recipe is a set of instructions that describes how to prepare or make somethin
 
 ## Deployment
 
-the website is deployed using Netlify which is a free web hosting application. Live Link URL : https://recipe-website1.netlify.app
+the website is deployed using Netlify which is a free web hosting application. Live Link URL : https://singular-mousse-592891.netlify.app
 
 
 
