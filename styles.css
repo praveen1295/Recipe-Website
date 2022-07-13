@@ -28,6 +28,7 @@ body {
 
 nav {
   box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+  min-width: 450px;
   position: sticky;
   top: 0;
   margin-bottom: 32px;
@@ -229,6 +230,16 @@ Recipes
   margin-top: 0.5rem;
   letter-spacing: 1px;
 }
+
+@media screen and (min-width: 500px) {
+  .recipes-list {
+    grid-template-columns: 1fr 1fr;
+  }
+  .recipe-img {
+    height: 7rem;
+  }
+}
+
 @media screen and (min-width: 576px) {
   .recipes-list {
     grid-template-columns: 1fr 1fr;
@@ -269,14 +280,18 @@ Recipes
   }
 }
 
+/* About page */
+
 .about-page {
   display: flex;
   gap: 5rem;
   align-items: center;
+  justify-content: center;
   padding-bottom: 3rem;
 }
 .about-page img {
   max-width: 500px;
+  align-self: center;
 }
 .history {
   padding: 10px 0;
@@ -289,10 +304,23 @@ Recipes
   margin-bottom: 3rem;
 }
 
+@media screen and (max-width: 630px) {
+  .about-page {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-page img {
+    max-width: 400px;
+  }
+}
+
 @media screen and (max-width: 950px) {
   .about-page {
     display: flex;
     flex-direction: column;
+  }
+  .about-page img {
+    max-width: 450px;
   }
 }
 
